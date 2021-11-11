@@ -1,24 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
+import NavBar from './components/NavBar';
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Bienvenidos a mi ecommerce Bombay velas.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Pagina de React
-        </a>
-      </header>
+  <>  
+
+    <NavBar/> 
+    <br>
+    </br>
+    <br>
+      
+    </br>
+    <div className="app">
+    <h1>Bombay Velas</h1>
+    <h2>esto es un subtitulo</h2>
+    <p>lorem esto es un texto de relleno</p>
     </div>
+
+  </>
   );
 }
 
