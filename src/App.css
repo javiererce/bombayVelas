@@ -29,7 +29,9 @@ header nav ul li a:hover{
   background: rgb(143, 109, 22);
 }
 .app{
-  text-align: center;
-  
+  text-align: center; 
+}
+h1{
+  font-size: 45px;
 }
 
