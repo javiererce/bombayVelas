@@ -1,7 +1,14 @@
 .header{
     display: flex;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
-    background: chartreuse;
     width: 100%;
+    min-height: 5vh;
+    
 }
+ .logo{
+     width: 250px;
+     height: 150px;
+ }
+ 
