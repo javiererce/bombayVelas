@@ -12,7 +12,7 @@ function App() {
        <div className="app">
 
     <NavBar /> 
-    <ItemListContainer greeting="Bienvenidos" />
+    <ItemListContainer greeting="" />
       <Header />
          <h2>Tienda de velas artesanales</h2>
           <h3>Nuestros modelos mas vendidos 20 % off</h3>

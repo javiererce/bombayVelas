@@ -1,10 +1,10 @@
 import React from 'react';
-import {FiShoppingCart} from "react-icons/fi";
+import {AiOutlineShoppingCart} from "react-icons/ai";
 
 export default function CartWidget() {
     return (
-        <div>
-           <FiShoppingCart />
+        <div >
+           <AiOutlineShoppingCart  />
 
         </div>
     )
