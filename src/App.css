@@ -1,10 +1,17 @@
 /*Estilos generales*/
 body{
+  
   background:rgb(235, 214, 161);
   font-family: sans-serif;
 }
+b{
+  color: red;
+}
 .app{
   text-align: center;
+  background-image:url(./components/45586_tokyo_ghoul.jpg);
+  background-image: url(./components/desktop-anime-wallpaper-ixpap.jpg);
+  
 }
 /*estilos de la seccion que contiene a las card*/
 
@@ -17,6 +24,8 @@ body{
   justify-content: center;
   
 }
+
+
 
 
 

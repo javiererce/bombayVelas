@@ -1,7 +1,7 @@
 
 /*estilos de el NavBar*/
 header nav{
-    background: rgb(228, 180, 58);
+    background: rgba(228, 113, 243, 0.493);
     margin-bottom: 40px;
     width: 100%;
     display: flex;
@@ -21,6 +21,7 @@ header nav{
     padding: 20px;
     color: whitesmoke;
     text-decoration: none;
+    font-size: 25px;
   }
   header nav ul li a:hover{
    color: black;
