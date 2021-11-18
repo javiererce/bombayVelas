@@ -1,22 +1,36 @@
+// import
 import './App.css';
 import NavBar from './components/NavBar/NavBar';
 // eslint-disable-next-line no-unused-vars
 import Header from './components/Header/Header';
 import UserCard from "./components/UserCard/UserCard";
 import ItemListContainer from './components/ItemListContainer/ItemListContainer';
+import React, {useState} from 'react';
+// fin de import
 
 
 function App() {
-   
+  // consts
+  const [counter,setCounter] = useState(5);
+  /*const handleCounterUp = ()=>{
+    setCounter(counter + 1)
+  };*/
+   // fin de consts
+
   return (
-  <> 
-       <div className="app">
+  <>  
+       <div className="app"> 
 
     <NavBar /> 
-    <ItemListContainer greeting="" />
+     <ItemListContainer greeting="" />
       <Header />
          <h2>Elegi tu remera Geek</h2>
-          <h3>Nuestros modelos mas vendidos <b>20 % off</b> </h3>
+           <h3>Nuestros modelos mas vendidos <b>20 % off</b></h3>
+
+           <h3>Hooks React</h3>
+            <p className="numero">{counter}</p>
+              <button onClick={()=>setCounter(counter+1)}>Agregar</button>
+              <button onClick={()=>setCounter(counter-1)}>Quitar</button>
    
         <div className="userSection">
 
@@ -42,7 +56,7 @@ function App() {
               description="Breve descricion del producto" img="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/top-10-heroinas-anime-sailor-moon-1550509700.jpg"/>     
         </div>
        
-    </div>
+    </div> 
   </> 
   );
   
